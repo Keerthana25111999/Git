@@ -50,5 +50,21 @@ public class EmployeeServiceImpl implements EmployeeService{
 		empDao.insertEmployee();
 		
 	}
+                 @Override
+	public List<Employee> getEmployeesByDept() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public void deleteEmployee(int empId) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void insertEmployee(Employee empl) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
 
